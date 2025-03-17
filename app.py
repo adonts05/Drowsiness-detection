@@ -7,8 +7,8 @@ from pygame import mixer
 import time
 
 # Configuration
-ALARM_PATH = r"C:\Users\adont\OneDrive\Desktop\RealTimeDrowsyDrivingDetection-main\utils\alarm.WAV"
-FACE_MODEL_PATH = r"C:\Users\adont\OneDrive\Desktop\RealTimeDrowsyDrivingDetection-main\models\yolov8-face\yolov8n-face.pt"
+ALARM_PATH = r"utils/alarm.WAV"
+FACE_MODEL_PATH = r"models/yolov8n-face.pt"
 EAR_THRESHOLD = 0.21
 MAR_THRESHOLD = 0.85
 CONSEC_FRAMES = 10  # Number of consecutive frames for drowsiness
