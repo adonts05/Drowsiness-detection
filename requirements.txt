@@ -1,5 +1,5 @@
 opencv-python-headless==4.9.0.80
-pygame==2.5.2
+pygame>=2.5.2 
 absl-py==2.1.0
 addict==2.4.0
 aiohappyeyeballs==2.4.8
